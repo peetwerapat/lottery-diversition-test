@@ -107,7 +107,9 @@ export default function RandomNumbers() {
         setResult(
           `ยินดีด้วย!!! ${inputValue} ถูกรางวัลที่ 2 และรางวัลเลขท้าย 2 ตัว`
         );
-      } else setResult(`ยินดีด้วย!!! ${inputValue} ถูกรางวัลที่ 2`);
+      } else {
+        setResult(`ยินดีด้วย!!! ${inputValue} ถูกรางวัลที่ 2`);
+      }
     } else if (inputValue.slice(-2) === num5) {
       setResult(`ยินดีด้วย!!! ${inputValue} ถูกรางวัลเลขท้าย 2 ตัว`);
     } else {
